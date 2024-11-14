@@ -7,7 +7,7 @@ export default function Nav(){
           MY PORTFOLIO
         </h1>
         <ul className="hidden md:flex gap-5 lg:gap-10 mt-[20px]">
-         <Link href="/home"><li className="text-orange-500 text-[16px] lg:text-[20px] font-semibold hover:text-white underline">HOME</li></Link> 
+         <Link href="/herosection"><li className="text-orange-500 text-[16px] lg:text-[20px] font-semibold hover:text-white underline">HOME</li></Link> 
           <Link href="/about"><li className="text-pink-500 text-[16px] lg:text-[20px] font-semibold hover:text-orange-500">ABOUT</li></Link> 
           <Link href="/skills" ><li className="text-pink-500 text-[16px] lg:text-[20px] font-semibold hover:text-orange-500">SKILLS</li></Link> 
           <Link href="/contact"><li className="text-pink-500 text-[16px] lg:text-[20px] font-semibold hover:text-orange-500">CONTACT</li></Link>
