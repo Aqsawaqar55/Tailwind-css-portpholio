@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)file:///E:/usb/asharibProjects/calculater/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater
+ </title>
+ <link rel="stylesheet" href="./calculater_files/main.css">
+</head>
+<body id="background">
+    <div id="calculater">
+    <form>
+<input type=" text" id="screen" name="screenD">
+<div class="mar">
+    <input type="button" value="Ac" class="btn fc " onclick="screenD.value=&#39;&#39;">
+    <input type="button" value="del" class="btn fc" onclick="screenD.value = screenD.value.slice(0,-1)">
+    <input type="button" value="%" class="btn" onclick="screenD.value += &#39;%&#39;">
+    <input type="button" value="/" class="btn" onclick="screenD.value += &#39;/&#39;">
+</div>
+<div class="mar">
+    <input type="button" value="7" class="btn" onclick="screenD.value +=&#39;7&#39;">
+    <input type="button" value="8" class="btn" onclick="screenD.value+=&#39;8&#39;">
+    <input type="button" value="9" class="btn" onclick="screenD.value += &#39;9&#39;">
+    <input type="button" value="+" class="btn" onclick="screenD.value += &#39;+&#39;">
+</div>
+<div class="mar">
+    <input type="button" value="4" class="btn" onclick="screenD.value += &#39;4&#39;">
+    <input type="button" value="5" class="btn" onclick="screenD.value+=&#39;5&#39;">
+    <input type="button" value="6" class="btn" onclick="screenD.value+=&#39;6&#39;">
+    <input type="button" value="*" class="btn" onclick="screenD.value+=&#39;*&#39;">
+</div>
+<div class="mar">
+    <input type="button" value="1" class="btn" onclick="screenD.value+=&#39;1&#39;">
+    <input type="button" value="2" class="btn" onclick="screenD.value+=&#39;2&#39;">
+    <input type="button" value="3" class="btn" onclick="screenD.value+=&#39;3&#39;">
+    <input type="button" value="-" class="btn" onclick="screenD.value+=&#39;-&#39;">
+</div>
+<div class="mar bot">
+    <input type="button" value="0" class="btn" onclick="screenD.value+=&#39;0&#39;">
+    <input type="button" value="." class="btn" onclick="screenD.value+=&#39;.&#39;">
+    <input type="button" value="00" class="btn" onclick="screenD.value+=&#39;00&#39;">
+    <input type="button" value="=" class="btn color" onclick="screenD.value=eval(screenD.value)">
+</div>
+</form>
+    </div>
+
+</body></html>
